@@ -1,0 +1,32 @@
+# Diretórios de cache e dados locais
+.cache/
+data/
+input/
+
+# Arquivos de ambiente e credenciais
+.env
+*.key
+*.pem
+secrets.json
+
+# Arquivos de sistema e IDE
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+
+# Arquivos gerados pelo Streamlit
+.streamlit/
+*.pyc
+
+# Arquivos temporários e de log
+*.log
+*.tmp
+*.bak
+
+# Arquivos de dados grandes
+*.csv
+*.parquet
+*.feather
+*.hdf5
